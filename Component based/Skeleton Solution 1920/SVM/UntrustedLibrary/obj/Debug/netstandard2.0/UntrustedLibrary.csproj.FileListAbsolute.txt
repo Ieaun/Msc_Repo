@@ -1,0 +1,15 @@
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\bin\Debug\Untrusted\netstandard2.0\UntrustedLibrary.deps.json
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\bin\Debug\Untrusted\netstandard2.0\UntrustedLibrary.dll
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\bin\Debug\Untrusted\netstandard2.0\UntrustedLibrary.pdb
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\netstandard2.0\UntrustedLibrary.csprojAssemblyReference.cache
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\netstandard2.0\UntrustedLibrary.csproj.CoreCompileInputs.cache
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\netstandard2.0\UntrustedLibrary.AssemblyInfoInputs.cache
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\netstandard2.0\UntrustedLibrary.AssemblyInfo.cs
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\netstandard2.0\UntrustedLibrary.dll
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\netstandard2.0\UntrustedLibrary.pdb
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM\bin\Debug\Untrusted\netstandard2.0\UntrustedLibrary.deps.json
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM\bin\Debug\Untrusted\netstandard2.0\UntrustedLibrary.dll
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM\bin\Debug\Untrusted\netstandard2.0\UntrustedLibrary.pdb
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\SVM\bin\Debug\Untrusted\netstandard2.0\UntrustedLibrary.deps.json
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\SVM\bin\Debug\Untrusted\netstandard2.0\UntrustedLibrary.dll
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\SVM\bin\Debug\Untrusted\netstandard2.0\UntrustedLibrary.pdb

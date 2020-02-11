@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\SVN 2020\ieaun\MSC\Trustworth Computing\Trustworthy_Coursework\UntrustedCode\bin\Debug\UntrustedCode.dll.config
+C:\Users\user\Desktop\SVN 2020\ieaun\MSC\Trustworth Computing\Trustworthy_Coursework\UntrustedCode\bin\Debug\UntrustedCode.dll
+C:\Users\user\Desktop\SVN 2020\ieaun\MSC\Trustworth Computing\Trustworthy_Coursework\UntrustedCode\bin\Debug\UntrustedCode.pdb
+C:\Users\user\Desktop\SVN 2020\ieaun\MSC\Trustworth Computing\Trustworthy_Coursework\UntrustedCode\obj\Debug\UntrustedCode.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SVN 2020\ieaun\MSC\Trustworth Computing\Trustworthy_Coursework\UntrustedCode\obj\Debug\UntrustedCode.dll
+C:\Users\user\Desktop\SVN 2020\ieaun\MSC\Trustworth Computing\Trustworthy_Coursework\UntrustedCode\obj\Debug\UntrustedCode.pdb
+C:\Users\user\Desktop\SVN 2020\ieaun\MSC\Trustworth Computing\Trustworthy_Coursework\UntrustedCode\obj\Debug\UntrustedCode.csprojAssemblyReference.cache

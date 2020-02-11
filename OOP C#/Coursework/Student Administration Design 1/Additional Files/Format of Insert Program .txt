@@ -1,0 +1,19 @@
+INSERT INTO Programs (ProgramID, Program_Title, Program_Lenght,Core_Modules,
+Optional_Modules ,Module_1 ,Module_2 ,Module_3 ,
+Module_4 ,Module_5 ,Module_6 ,Module_7 ,
+Module_8 ,Module_9 ,Module_10 ,Module_11 ,
+Module_12 ,Module_13 ,Module_14 ,Module_15 ,
+Module_16 ,Module_17 ,Module_18 ,Module_19 ,
+Module_20 ,Module_21 ,Module_22 ,Module_23 ,
+Module_24 ,Module_25 ,Module_26)
+
+
+
+ VALUES ( '147796','Msc Computer Science','3','12',
+'15','Object oriented programming','Distributedd Systems','Component-Based Architecture',
+'Networking and user interface','Network Security','Object oriented programming','Distributedd Systems',
+'Quantitive methods','Networking and user interface','Network Security','Object oriented programming',
+'Software Engineering','Agile Software Development','Electronics and interfacing','Quantitive methods',
+'Component-Based Architecture','Cyber Security','Software Engineering','Agile Software Development',
+'Electronics and interfacing','Distributedd Systems','Component-Based Architecture','Cyber Security',
+'Software Engineering','Agile Software Development')

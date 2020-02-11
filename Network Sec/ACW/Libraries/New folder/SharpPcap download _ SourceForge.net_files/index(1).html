@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- saved from url=(0145)https://s0.2mdn.net/ads/richmedia/studio/pv2/60776313/20180807034932262/index.html?e=69&leftOffset=0&topOffset=0&c=BZ0ER2WVj5&t=1&renderingType=2 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script src="./tweenmax_1.19.0_643d6911392a3398cb1607993edabfa7_min.js.download"></script>
+  <script src="./preloadjs_0.6.2_d7b96570d4552592ae479162e546cb25_min.js.download"></script>
+  <script src="./createjs_2015.11.26_54e1c3722102182bb133912ad4442e19_min.js.download"></script>
+  <script src="./SplitText.min.js.download"></script>
+  <script src="./Enabler_01_228.js.download" type="text/javascript"></script>
+     
+  <link href="./css" rel="stylesheet">
+
+
+
+
+<style type="text/css">
+  
+  #main-container {
+    visibility: hidden;
+  }
+
+</style>
+
+  
+    
+<style type="text/css">@charset "UTF-8";
+
+body {
+  margin: 0;
+}
+
+#main-container {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background: white;
+  overflow: hidden;
+}
+
+#exit {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 500;
+  position: absolute;
+}
+
+.feature {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+sup {
+  font-size: 0.5em;
+  margin-left: 0.2em;
+}
+
+.fullsize {
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 300px;
+  height:250px;
+  overflow: hidden;
+  background-size: 300px 250px;
+}
+
+canvas {
+  position: absolute;
+}
+
+#cta {
+    position: absolute;
+    text-align: center;
+    font-family: 'Product Sans';
+    font-weight: 300;
+    border-style: solid;
+    border-width: 5px;
+}
+
+
+.copy {
+    position: absolute;
+    font-family: 'Product Sans';
+    font-weight: 600;
+    //letter-spacing: 0.7px;
+}
+
+#TCs {
+    position: absolute;
+    font-family: 'Product Sans';
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    text-align: right;
+}
+
+
+#logo {
+    position: absolute;
+    top: 211px;
+    left: 15px;
+    width: 135px;
+    height: 64px;
+    background-image: url(images/logo.svg);
+    background-repeat: no-repeat;
+}
+
+
+#logo_group {
+    position: absolute;
+    top: 12px;
+    left: 17px;
+    width: 24px;
+    height: 33px;
+}</style></head>
+<body>
+    <div id="main-container" style="visibility: visible;">
+        <canvas id="sprite_1_canvas" width="300" height="250" style="opacity: 1;"></canvas>
+        <div id="copy_1" class="copy" style="top: 16px; left: 20px; font-size: 20px; line-height: 23px; color: rgb(117, 117, 117); opacity: 0;">If you need a laptop<br>that lets you work<br>without wifi</div>
+        <div id="copy_2_1" class="copy" style="top: 20px; left: 20px; font-size: 23px; line-height: 27px; color: rgb(66, 133, 244); opacity: 1;">You Chromebook</div>
+        <div id="copy_2_2" class="copy" style="top: 49px; left: 20px; font-size: 16px; line-height: 19px; color: rgb(117, 117, 117); opacity: 1;">Thousands of apps<br>work offline</div>
+        <div id="TCs" style="bottom: 6px; right: 8px; font-size: 7px; line-height: 10px; color: rgb(166, 166, 166); opacity: 1;"></div>
+        <div id="logo"></div>
+        <div id="cta" style="top: 112px; left: 19px; font-size: 13px; color: rgb(70, 136, 244); background-color: rgb(251, 252, 255); letter-spacing: 0.8px; padding: 8px 14px; border-color: rgb(66, 133, 244); border-radius: 2px; border-width: 2px;">Shop now</div>
+        <div id="exit"></div>
+    </div>
+
+  <script src="./logic.js.download"></script>
+
+<script>var sprite_1_data = {
+
+"images": [
+
+],
+
+"framerate": 20,
+"frames": [
+    [1, 1, 300, 250, 0, 0, 0],
+    [1, 1, 300, 250, 0, 0, 0],
+    [1, 1, 300, 250, 0, 0, 0],
+    [1, 1, 300, 250, 0, 0, 0],
+    [303, 1, 300, 250, 0, 0, 0],
+    [605, 1, 300, 250, 0, 0, 0],
+    [907, 1, 300, 250, 0, 0, 0],
+    [1209, 1, 300, 250, 0, 0, 0],
+    [1511, 1, 300, 250, 0, 0, 0],
+    [1, 253, 300, 250, 0, 0, 0],
+    [303, 253, 300, 250, 0, 0, 0],
+    [605, 253, 300, 250, 0, 0, 0],
+    [907, 253, 300, 250, 0, 0, 0],
+    [1209, 253, 300, 250, 0, 0, 0],
+    [1511, 253, 300, 250, 0, 0, 0],
+    [1, 505, 300, 250, 0, 0, 0],
+    [303, 505, 300, 250, 0, 0, 0],
+    [605, 505, 300, 250, 0, 0, 0],
+    [907, 505, 300, 250, 0, 0, 0],
+    [1209, 505, 300, 250, 0, 0, 0],
+    [1511, 505, 300, 250, 0, 0, 0]
+],
+
+"animations": {
+    "DellInspiro14_300x250_Offline": { "frames": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:391c9d39c1af37c543a6d2c843517880:15ec957d9322b6524596b3f98c48b2ef:a6ffa6dde954c5795b6c44be81eb04ed$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}
+</script></body></html>

@@ -1,0 +1,9 @@
+ping -n 5 -l 1500 www.google.com   {ICMP}
+
+route delete 192.168.8.100
+
+192.168.8.1 Default Gateway
+
+route add 192.168.8.100 mask 255.255.255.255 192.168.8.1 metric 1
+
+route add 192.168.8.1 mask 255.255.255.255 192.168.8.100 metric 1

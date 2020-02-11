@@ -1,0 +1,349 @@
+var devDynamicContent;
+var creative = {};
+var copy_1_Style_dict;
+var copy_2_1_Style_dict;
+var copy_2_2_Style_dict;
+var ctaStyle_dict;
+var TCsStyle_dict;
+var SpriteImages_Array;
+var main_tl;
+var copy_1_tl;
+var copy_2_1_tl;
+var onMouseOver_tl;
+var onMouseOut_tl;
+var SpriteSheet_1;
+var sprite_1_anim;
+var sprite_1_stage;
+var copy_1_lines;
+
+
+function preInit() {
+  if (Enabler.isInitialized()) {
+    init();
+  } else {
+    Enabler.addEventListener(
+      studio.events.StudioEvent.INIT,
+      init
+    );
+  }
+}
+
+function init() {
+ 
+  if (Enabler.isVisible()) {
+    onEnablerVisible();
+  }
+  else {
+    Enabler.addEventListener(studio.events.StudioEvent.VISIBLE, onEnablerVisible);
+  }
+}
+
+function onEnablerVisible () {
+   setDynamic();
+   politeInit();
+}
+
+setDynamic = function () {
+    console.log("----- setDynamic");
+    Enabler.setProfileId(10124311);
+    devDynamicContent = {};
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed = [{}];
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].ExitURL = {};
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].ExitURL.Url = "https://www.android.com/everyone/stories/be-my-eyes";
+
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_1 = "If you need a laptop<br>that runs the apps<br>you rely on for<br>work and play";
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_1_Style =  "{\"top\":\"12\", \"left\":\"20\", \"size\":\"22\", \"lineHeight\":\"25\", \"color\":\"#757575\"}";
+
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_2_1 = "You Chromebook.";
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_2_1_Style =  "{\"top\":\"20\", \"left\":\"20\", \"size\":\"23\", \"lineHeight\":\"27\", \"color\":\"#4285F4\"}";
+
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_2_2 = "Thousands of apps<br>on the Play Store.";
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_2_2_Style =  "{\"top\":\"49\", \"left\":\"20\", \"size\":\"16\", \"lineHeight\":\"20\", \"color\":\"#757575\"}";
+
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].TCs = "Battery life may<br>depend on usage";
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].TCsStyle = "{\"bottom\":\"6\", \"right\":\"8\", \"size\":\"7\", \"lineHeight\":\"10\", \"color\":\"#A6A6A6\"}";
+ 
+
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].cta = "Find yours";
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].ctaStyle =  "{\"top\":\"124\", \"left\":\"19\", \"size\":\"13\", \"color\":\"#4285F4\", \"colorOver\":\"#FFF\", \"bgcolor\":\"#fff\", \"bgcolorOver\":\"#4285F4\", \"bordercolor\":\"#4285F4\", \"bordercolorOver\":\"#2a5fdd\", \"borderWidth\":\"2\", \"letterSpacing\":\"0.8\", \"padding\":\"8px 14px 8px 14px\", \"borderRadius\":\"4\"}";
+
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spritesJS = {};
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spritesJS.Type = "file";
+    //  devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spritesJS.Url = "dynamic_assets/300x250_sprite.js";
+    //  devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spritesJS.Url = "dynamic_assets/Acer11Convertible_300x250.js";
+    //  devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spritesJS.Url = "dynamic_assets/Acer14_300x250.js";
+    // devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spritesJS.Url = "dynamic_assets/AsusFlipSilver_300x250.js";
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spritesJS.Url = "dynamic_assets/Pixelbook_300x250.js";
+
+     /////// this need to be the base path from the dynamic assets folder;
+    devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].assetsBasePath = "dynamic_assets/";
+    // devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spriteImages =  "300x250_sprite.png";
+   // devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spriteImages =  "Acer11Convertible_300x250.png";
+   //   devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spriteImages =  "Acer14_300x250.png";
+    //  devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spriteImages =  "AsusFlipSilver_300x250.png";
+     devDynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spriteImages =  "Pixelbook_300x250.png";
+
+
+    Enabler.setDevDynamicContent(devDynamicContent);
+    console.log('///////////////////////// DATA ////////////////////////////////////');
+    console.log(dynamicContent);
+    console.log('///////////////////////// DATA - END ////////////////////////////////////');
+
+    SpriteImages_Array = dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spriteImages.split(", ");
+    console.log(SpriteImages_Array);
+
+}
+
+function politeInit() {
+      console.log("----- politeInit");
+      preload = new createjs.LoadQueue(true);
+      manifest = [
+          {src:Enabler.getUrl('images/logo.svg'), id:"Chromebook_logo"},
+          {src:Enabler.getUrl('css/style.css'), id:"style"},
+          {src:Enabler.getUrl(dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].spritesJS.Url), id:"sprite"},
+
+      ];
+
+      for (i = 0; i < SpriteImages_Array.length; i++) { 
+       manifest.push({src:Enabler.getUrl(dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].assetsBasePath + SpriteImages_Array[i]), id:SpriteImages_Array[i]});
+      }
+
+      preload.addEventListener("complete", handleManifastLoadComplete);
+      preload.addEventListener("fileload", handleFileLoaded);
+      preload.loadManifest(manifest);
+    }
+
+    function handleFileLoaded(event) {
+     
+      var item = event.item;
+      var id = item.id;
+      var result = event.result;
+       console.log("----- handleFileLoaded - " + item.id);
+
+      switch (item.type) {
+
+        case createjs.LoadQueue.CSS:
+          (document.head || document.getElementsByTagName("head")[0]).appendChild(result);
+        break;
+
+        case createjs.LoadQueue.IMAGE:
+        break;
+
+        case createjs.LoadQueue.JAVASCRIPT:
+          document.body.appendChild(result);
+        break;
+
+      }
+    }
+
+    function handleManifastLoadComplete(event) {
+        console.log("----- handleManifastLoadComplete");
+        InitializeBanner();
+    }
+    
+function InitializeBanner() {
+      console.log('----- InitializeBanner');
+      setupDom();
+      setupSprites();
+      updateWithDynamicContent();
+      CreateAnimations ();
+      reset();
+      addListeners();
+      startTicker ();
+      creative.dom.mainContainer.style.visibility = "visible";
+      play();
+}
+
+function setupDom() {
+  creative.dom = {};
+  creative.dom.mainContainer = document.getElementById('main-container');
+  creative.dom.exit = document.getElementById('exit');
+  creative.dom.copy_1 = document.getElementById('copy_1');
+  creative.dom.copy_2 = document.getElementById('copy_2');
+  creative.dom.copy_2_1 = document.getElementById('copy_2_1');
+  creative.dom.copy_2_2 = document.getElementById('copy_2_2');
+  creative.dom.TCs = document.getElementById('TCs');
+  creative.dom.cta = document.getElementById('cta');
+
+  creative.dom.sprite_1_canvas = document.getElementById('sprite_1_canvas');
+}
+
+function updateWithDynamicContent () {
+  console.log("----- updateWithDynamicContent");
+
+  ///// style dicts
+  copy_1_Style_dict = JSON.parse(dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_1_Style);
+  copy_2_1_Style_dict = JSON.parse(dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_2_1_Style);
+  copy_2_2_Style_dict = JSON.parse(dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_2_2_Style);
+  TCsStyle_dict = JSON.parse(dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].TCsStyle);
+  ctaStyle_dict = JSON.parse(dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].ctaStyle);
+
+  //////
+  creative.dom.copy_1.innerHTML = dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_1;
+  creative.dom.copy_1.style.top = copy_1_Style_dict.top + 'px';
+  creative.dom.copy_1.style.left = copy_1_Style_dict.left + 'px';
+  creative.dom.copy_1.style.fontSize = copy_1_Style_dict.size + 'px';
+  creative.dom.copy_1.style.lineHeight= copy_1_Style_dict.lineHeight + 'px';
+  creative.dom.copy_1.style.color = copy_1_Style_dict.color;
+
+
+  creative.dom.copy_2_1.innerHTML = dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_2_1;
+  creative.dom.copy_2_1.style.top = copy_2_1_Style_dict.top + 'px';
+  creative.dom.copy_2_1.style.left = copy_2_1_Style_dict.left + 'px';
+  creative.dom.copy_2_1.style.fontSize = copy_2_1_Style_dict.size + 'px';
+  creative.dom.copy_2_1.style.lineHeight= copy_2_1_Style_dict.lineHeight + 'px';
+  creative.dom.copy_2_1.style.color = copy_2_1_Style_dict.color;
+
+  creative.dom.copy_2_2.innerHTML = dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].copy_2_2;
+  creative.dom.copy_2_2.style.top = copy_2_2_Style_dict.top + 'px';
+  creative.dom.copy_2_2.style.left = copy_2_2_Style_dict.left + 'px';
+  creative.dom.copy_2_2.style.fontSize = copy_2_2_Style_dict.size + 'px';
+  creative.dom.copy_2_2.style.lineHeight= copy_2_2_Style_dict.lineHeight + 'px';
+  creative.dom.copy_2_2.style.color = copy_2_2_Style_dict.color;
+
+
+  creative.dom.TCs.innerHTML = dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].TCs;
+  creative.dom.TCs.style.bottom = TCsStyle_dict.bottom + 'px';
+  creative.dom.TCs.style.right = TCsStyle_dict.right + 'px';
+  creative.dom.TCs.style.fontSize = TCsStyle_dict.size + 'px';
+  creative.dom.TCs.style.lineHeight= TCsStyle_dict.lineHeight + 'px';
+  creative.dom.TCs.style.color = TCsStyle_dict.color;
+
+  creative.dom.cta.innerHTML = dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].cta;
+  creative.dom.cta.style.top = ctaStyle_dict.top + 'px';
+  creative.dom.cta.style.left = ctaStyle_dict.left + 'px';
+  creative.dom.cta.style.fontSize = ctaStyle_dict.size + 'px';
+  creative.dom.cta.style.color = ctaStyle_dict.color;
+  creative.dom.cta.style.backgroundColor = ctaStyle_dict.bgcolor;
+  creative.dom.cta.style.letterSpacing = ctaStyle_dict.letterSpacing + 'px';
+  creative.dom.cta.style.padding = ctaStyle_dict.padding;
+  creative.dom.cta.style.borderColor = ctaStyle_dict.bordercolor;
+  creative.dom.cta.style.borderRadius = ctaStyle_dict.borderRadius + 'px';
+  creative.dom.cta.style.borderWidth = ctaStyle_dict.borderWidth + 'px';
+
+}
+
+function reset (){
+ //killtimeline(copy_1_tl);
+ //killtimeline(copy_2_2_tl);
+ killtimeline(main_tl);
+ 
+ TweenLite.set(creative.dom.copy_1 , {opacity:0});
+ TweenLite.set(creative.dom.copy_2_1 , {opacity:0});
+ TweenLite.set(creative.dom.copy_2_2 , {opacity:0});
+ TweenLite.set(creative.dom.TCs , {opacity:0});
+
+ sprite_1_anim.gotoAndStop(0);
+ TweenLite.set(creative.dom.sprite_1_canvas , {opacity:0});
+ 
+}
+
+function killtimeline (timeline) {
+  timeline.kill();
+  timeline.gotoAndStop(0);
+}
+
+function addListeners() {
+  creative.dom.exit.addEventListener('click', exitClickHandler);
+  creative.dom.exit.addEventListener('mouseover', onMouseOver, false);   
+  creative.dom.exit.addEventListener('mouseout', onMouseOut, false); 
+}
+
+setupSprites = function () {
+  console.log("----- setupSprites");
+  sprite_1_stage = new createjs.Stage("sprite_1_canvas");
+
+  for (i = 0; i < SpriteImages_Array.length; i++) { 
+       sprite_1_data.images[i] = dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].assetsBasePath + SpriteImages_Array[i];
+  }
+
+  SpriteSheet_1 = new createjs.SpriteSheet(sprite_1_data);
+  SpriteSheet_1.framerate = 20;
+  sprite_1_anim = new createjs.Sprite(SpriteSheet_1, "sprite_anim");
+  sprite_1_stage.addChild(sprite_1_anim);
+  sprite_1_anim.stop();
+  sprite_1_anim.addEventListener("animationend", onsprite_1_AnimEnd);
+}
+
+
+function CreateAnimations () {
+  
+  //copy_1_SplitText = new SplitText(creative.dom.copy_1, {type:"lines"});
+  //copy_1_lines = copy_1_SplitText.lines;
+  //copy_1_tl = new TimelineMax({paused:true});
+  //copy_1_tl.staggerFrom(copy_1_lines, 0.01, {opacity:1, y:0}, 0, "=+0.2");
+
+  //copy_2_2_SplitText = new SplitText(creative.dom.copy_2_2, {type:"lines"});
+  //copy_2_2_lines = copy_2_2_SplitText.lines;
+  //copy_2_2_tl = new TimelineMax({paused:true});
+  //copy_2_2_tl.staggerFrom(copy_2_2_lines, 0.01, {opacity:0}, 0, "=+0.4");
+
+  main_tl = new TimelineMax({paused:true});
+  main_tl.to(creative.dom.copy_1 ,  0.01 , {delay:0, opacity:1});
+  main_tl.to(creative.dom.sprite_1_canvas ,  0.01 , {delay:0, opacity:1});
+  main_tl.to(creative.dom.copy_1 , 0.01, {delay:3, opacity:0});
+  main_tl.to(creative.dom.copy_2_1 , 0.01, {delay:0.2, opacity:1});
+  main_tl.to(creative.dom.copy_2_2 , 0.01, {delay:0.4, opacity:1});
+  main_tl.to(creative.dom.TCs , 0.5, {delay:1, opacity:1});
+
+}
+
+function pauseTimeline () {
+  main_tl.pause();
+}
+
+function resumeTimeline () {
+  main_tl.resume();
+}
+
+
+function play () {
+  console.log('------- play()');
+  main_tl.gotoAndPlay(0);
+  sprite_1_anim.play();
+}
+
+
+onsprite_1_AnimEnd = function (event) {
+  console.log('----- onsprite_1_AnimEnd');
+  sprite_1_anim.stop();
+  sprite_1_anim.gotoAndStop(SpriteSheet_1.getNumFrames() - 1);
+}
+
+ onMouseOver = function(e) {
+  if (onMouseOut_tl) {
+    onMouseOut_tl.kill();
+  }
+  onMouseOver_tl = new TimelineMax({paused:false});
+  onMouseOver_tl.to(creative.dom.cta, 0.2,{css:{  backgroundColor:ctaStyle_dict.bgcolorOver, color:ctaStyle_dict.colorOver}});
+
+}
+
+onMouseOut = function(e) {
+   if (onMouseOver_tl) {
+    onMouseOver_tl.kill();
+  }
+    onMouseOut_tl = new TimelineMax({paused:false});
+    onMouseOut_tl.to(creative.dom.cta, 0.5,{css:{  backgroundColor:ctaStyle_dict.bgcolor, color:ctaStyle_dict.color}});
+}
+
+startTicker = function () {
+  console.log('----- startTicker');
+  createjs.Ticker.on("tick", handleTick);
+}
+
+handleTick = function(event) {
+  sprite_1_stage.update(event);
+}
+
+
+function exitClickHandler() {
+    console.log("----- exitHandler");
+    //reset();
+    //play();
+    //return;
+    var exitURL = dynamicContent.Google_Chromebook_H2_Adrenaline_2018_Feed_Feed[0].ExitURL.Url
+    Enabler.exitOverride("exit", exitURL);
+}
+
+window.addEventListener('load', preInit);

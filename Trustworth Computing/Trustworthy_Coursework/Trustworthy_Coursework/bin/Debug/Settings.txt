@@ -1,0 +1,2 @@
+1 Exe per folder:E
+Prompt Before execution:N

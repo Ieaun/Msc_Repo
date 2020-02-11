@@ -1,0 +1,18 @@
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\SVM\bin\Debug\Untrusted\UntrustedLibrary.deps.json
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\SVM\bin\Debug\Untrusted\UntrustedLibrary.dll
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\SVM\bin\Debug\Untrusted\UntrustedLibrary.pdb
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\UntrustedLibrary.csproj.CoreCompileInputs.cache
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\UntrustedLibrary.AssemblyInfoInputs.cache
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\UntrustedLibrary.AssemblyInfo.cs
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\UntrustedLibrary.dll
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\UntrustedLibrary.pdb
+E:\Box Sync\Box Sync\Lecturing\ComponentBasedArch\1718\08352\SVM Solution\SVM Skeleton Solution\UntrustedLibrary\obj\Debug\UntrustedLibrary.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\SVM\bin\Debug\Untrusted\UntrustedLibrary.deps.json
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\SVM\bin\Debug\Untrusted\UntrustedLibrary.dll
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\SVM\bin\Debug\Untrusted\UntrustedLibrary.pdb
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\UntrustedLibrary\obj\Debug\UntrustedLibrary.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\UntrustedLibrary\obj\Debug\UntrustedLibrary.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\UntrustedLibrary\obj\Debug\UntrustedLibrary.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\UntrustedLibrary\obj\Debug\UntrustedLibrary.AssemblyInfo.cs
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\UntrustedLibrary\obj\Debug\UntrustedLibrary.dll
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\UntrustedLibrary\obj\Debug\UntrustedLibrary.pdb

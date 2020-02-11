@@ -1,0 +1,6 @@
+G:\C#\Sum of 2 numbers\Sum of 2 numbers\bin\Debug\Sum of 2 numbers.exe.config
+G:\C#\Sum of 2 numbers\Sum of 2 numbers\bin\Debug\Sum of 2 numbers.exe
+G:\C#\Sum of 2 numbers\Sum of 2 numbers\bin\Debug\Sum of 2 numbers.pdb
+G:\C#\Sum of 2 numbers\Sum of 2 numbers\obj\Debug\Sum of 2 numbers.csproj.CoreCompileInputs.cache
+G:\C#\Sum of 2 numbers\Sum of 2 numbers\obj\Debug\Sum of 2 numbers.exe
+G:\C#\Sum of 2 numbers\Sum of 2 numbers\obj\Debug\Sum of 2 numbers.pdb

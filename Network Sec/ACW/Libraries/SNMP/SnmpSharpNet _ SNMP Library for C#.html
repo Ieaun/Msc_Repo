@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://www.snmpsharpnet.com/ -->
+<html lang="en-US"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width">
+<title>SnmpSharpNet | SNMP Library for C#</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://www.snmpsharpnet.com/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="http://www.snmpsharpnet.com/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<link href="https://fonts.gstatic.com/" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="SnmpSharpNet » Feed" href="http://www.snmpsharpnet.com/?feed=rss2">
+<link rel="alternate" type="application/rss+xml" title="SnmpSharpNet » Comments Feed" href="http://www.snmpsharpnet.com/?feed=comments-rss2">
+<link rel="alternate" type="application/rss+xml" title="SnmpSharpNet » About Comments Feed" href="http://www.snmpsharpnet.com/?feed=rss2&amp;page_id=11">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.snmpsharpnet.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.10"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./SnmpSharpNet _ SNMP Library for C#_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="wp-syntax-css-css" href="./SnmpSharpNet _ SNMP Library for C#_files/wp-syntax.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentytwelve-fonts-css" href="./SnmpSharpNet _ SNMP Library for C#_files/css" type="text/css" media="all">
+<link rel="stylesheet" id="twentytwelve-style-css" href="./SnmpSharpNet _ SNMP Library for C#_files/style.css" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='http://www.snmpsharpnet.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript" src="./SnmpSharpNet _ SNMP Library for C#_files/jquery.js.download"></script>
+<script type="text/javascript" src="./SnmpSharpNet _ SNMP Library for C#_files/jquery-migrate.min.js.download"></script>
+<script type="text/javascript" src="./SnmpSharpNet _ SNMP Library for C#_files/include.js.download"></script>
+<link rel="https://api.w.org/" href="http://www.snmpsharpnet.com/index.php?rest_route=/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.snmpsharpnet.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.snmpsharpnet.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.8.10">
+<link rel="canonical" href="http://www.snmpsharpnet.com/">
+<link rel="shortlink" href="http://www.snmpsharpnet.com/">
+<link rel="alternate" type="application/json+oembed" href="http://www.snmpsharpnet.com/index.php?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=http%3A%2F%2Fwww.snmpsharpnet.com%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://www.snmpsharpnet.com/index.php?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=http%3A%2F%2Fwww.snmpsharpnet.com%2F&amp;format=xml">
+
+
+<!-- Dropdown Menu Widget Styles by shailan (http://metinsaylan.com) v1.9.5 on wp4.8.10 -->
+<link rel="stylesheet" href="./SnmpSharpNet _ SNMP Library for C#_files/shailan-dropdown.min.css" type="text/css">
+<link rel="stylesheet" href="./SnmpSharpNet _ SNMP Library for C#_files/rounded-corners-light.css" type="text/css">
+<style type="text/css" media="all">
+	ul.dropdown { white-space: nowrap; }
+	/* Selected overlay: none */	/* Clear background images */
+	.shailan-dropdown-menu .dropdown-horizontal-container, ul.dropdown li, ul.dropdown li.hover, ul.dropdown li:hover, ul.dropdown li.hover a, ul.dropdown li:hover a { background-image:none; }		
+		
+	.shailan-dropdown-menu .dropdown-horizontal-container, ul.dropdown li{ background-color:#000000; }
+	ul.dropdown a,
+	ul.dropdown a:link,
+	ul.dropdown a:visited,
+	ul.dropdown li { color: #FFFFFF; }
+	ul.dropdown a:hover,
+	ul.dropdown li:hover { color: #FFFFFF; }
+	ul.dropdown a:active	{ color: #FFFFFF; }
+			
+	ul.dropdown li.hover a, ul.dropdown li:hover a{ background-color: #333333; }
+	ul.dropdown li.hover ul li, ul.dropdown li:hover ul li{ background-color: #000000;
+		color: #FFFFFF; }
+			
+	ul.dropdown li.hover ul li.hover, ul.dropdown li:hover ul li:hover { background-image: none; }
+	ul.dropdown li.hover a:hover, ul.dropdown li:hover a:hover { background-color: #333333; }
+	
+	ul.dropdown ul{ background-image:none; background-color:#000000; border:1px solid #000000; }
+	ul.dropdown-vertical li { border-bottom:1px solid #333333; }
+	
+ul.dropdown li.parent>a{
+	padding-right:25px;
+}
+ul.dropdown li.parent>a:after{ 
+	content:""; position:absolute; top: 45%; right:6px;width:0;height:0; 
+	border-top:4px solid rgba(0,0,0,0.5);border-right:4px solid transparent;border-left:4px solid transparent }
+ul.dropdown li.parent:hover>a:after{
+	content:"";position:absolute; top: 45%; right:6px; width:0; height:0;
+	border-top:4px solid rgba(0,0,0,0.5);border-right:4px solid transparent;border-left:4px solid transparent }
+ul.dropdown li li.parent>a:after{
+	content:"";position:absolute;top: 40%; right:5px;width:0;height:0;
+	border-left:4px solid rgba(0,0,0,0.5);border-top:4px solid transparent;border-bottom:4px solid transparent }
+ul.dropdown li li.parent:hover>a:after{
+	content:"";position:absolute;top: 40%; right:5px;width:0;height:0;
+	border-left:4px solid rgba(0,0,0,0.5);border-top:4px solid transparent;border-bottom:4px solid transparent }
+
+
+</style>
+<!-- /Dropdown Menu Widget Styles -->
+
+ <link id="avast_os_ext_custom_font" href="chrome-extension://mbckjcfnjmoiinpgddefodcighgikkgn/common/ui/fonts/fonts.css" rel="stylesheet" type="text/css"></head>
+
+<body class="home page-template page-template-page-templates page-template-front-page page-template-page-templatesfront-page-php page page-id-11 full-width template-front-page custom-font-enabled single-author">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="http://www.snmpsharpnet.com/" title="SnmpSharpNet" rel="home">SnmpSharpNet</a></h1>
+			<h2 class="site-description">SNMP Library for C#</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle">Menu</button>
+			<a class="assistive-text" href="http://www.snmpsharpnet.com/#content" title="Skip to content">Skip to content</a>
+			<div class="menu-menu-1-container"><ul id="menu-menu-1" class="nav-menu"><li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-7 first-child"><a href="http://www.snmpsharpnet.com/">Home</a>
+<ul class="sub-menu">
+	<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23 first-child"><a href="http://www.snmpsharpnet.com/?page_id=17">License</a></li>
+	<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="http://www.snmpsharpnet.com/?page_id=15">Feature Support</a></li>
+	<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 last-child"><a href="http://www.snmpsharpnet.com/?page_id=13">Change Log</a></li>
+</ul>
+</li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-47"><a href="http://www.snmpsharpnet.com/?page_id=30">SNMP Introduction</a>
+<ul class="sub-menu">
+	<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48 first-child"><a href="http://www.snmpsharpnet.com/?page_id=39">SNMP v1 and v2c packet</a></li>
+	<li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="http://www.snmpsharpnet.com/?page_id=43">SNMP v1 and v2c Protocol Data Unit</a></li>
+	<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="http://www.snmpsharpnet.com/?page_id=28">SNMP v3 Concepts</a></li>
+	<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="http://www.snmpsharpnet.com/?page_id=26">SNMP Standards RFC Documents</a></li>
+	<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="http://www.snmpsharpnet.com/?page_id=19">Introduction to SNMP v3</a></li>
+	<li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-50 last-child"><a href="http://www.snmpsharpnet.com/?page_id=41">SNMP Variable Types</a>
+	<ul class="sub-menu">
+		<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71 first-child"><a href="http://www.snmpsharpnet.com/?page_id=68">Numeric data types</a></li>
+		<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="http://www.snmpsharpnet.com/?page_id=66">Working with Octet Strings</a></li>
+		<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="http://www.snmpsharpnet.com/?page_id=63">Working with Object Identifiers</a></li>
+		<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74 last-child"><a href="http://www.snmpsharpnet.com/?page_id=60">Working with IP addresses</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-173"><a href="http://www.snmpsharpnet.com/?page_id=171">Examples</a>
+<ul class="sub-menu">
+	<li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174 first-child"><a href="http://www.snmpsharpnet.com/?page_id=117">Receive SNMP v1 and 2c Traps</a></li>
+	<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="http://www.snmpsharpnet.com/?page_id=114">How – SNMP Set request</a></li>
+	<li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="http://www.snmpsharpnet.com/?page_id=111">SNMP v1 or v2c Get request</a></li>
+	<li id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177"><a href="http://www.snmpsharpnet.com/?page_id=108">Walk SNMP v1 and v2c</a></li>
+	<li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178"><a href="http://www.snmpsharpnet.com/?page_id=105">SimpleSnmp with VB.Net</a></li>
+	<li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="http://www.snmpsharpnet.com/?page_id=102">SNMP with SimpleSnmp class</a></li>
+	<li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://www.snmpsharpnet.com/?page_id=97">Send SNMP v1, v2c and v3 traps</a></li>
+	<li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="http://www.snmpsharpnet.com/?page_id=99">Sending SNMP v3 traps</a></li>
+	<li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://www.snmpsharpnet.com/?page_id=92">SNMP v3 notifications</a></li>
+	<li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="http://www.snmpsharpnet.com/?page_id=81">SNMP v1 Low Level Packet Class</a></li>
+	<li id="menu-item-184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="http://www.snmpsharpnet.com/?page_id=84">SNMP v2 Low Level Packet Class</a></li>
+	<li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="http://www.snmpsharpnet.com/?page_id=87">SNMP v3 Low Level Packet Class</a></li>
+	<li id="menu-item-202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202 last-child"><a href="http://www.snmpsharpnet.com/?page_id=197">Example SNMPv3 Set Operation</a></li>
+</ul>
+</li>
+<li id="menu-item-186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"><a href="http://www.snmpsharpnet.com/?page_id=160">Project Updates</a></li>
+<li id="menu-item-193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193"><a href="http://www.snmpsharpnet.com/?page_id=191">API Documentation</a></li>
+<li id="menu-item-194" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-194"><a href="http://sourceforge.net/projects/snmpsharpnet/">SourceForge</a></li>
+<li id="menu-item-205" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-205 last-child"><a href="http://sourceforge.net/projects/snmpsharpnet/files/latest/download">Download</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+							
+				
+	<article id="post-11" class="post-11 page type-page status-publish hentry">
+		<header class="entry-header">
+						<h1 class="entry-title">About</h1>
+		</header>
+
+		<div class="entry-content">
+			<p>Simple Network Management Protocol Open Source library written in c# with support for SNMP version 1, 2c and 3.</p>
+<p>Support for Get, Get-Next, Get-Bulk and Set requests, Response and Report replies and Trap, V2Trap and Inform Notifications is implemented. SNMP version 1 Traps have a dedicated packet class SnmpV1TrapPacket because they are substantially different from other SNMP version 1 packets. SNMP version 2 and 3 V2Trap parsing is included in the general request/response parsing class for each protocol. Inform handling for both SNMP version 2 and 3 is included and tested. In version 3, V2Trap and Inform support for authentication and privacy is included.</p>
+<p>SNMP version 3 currently support <strong>noAuthNoPriv</strong> (no privacy and no authentication) security model, <strong>authNoPriv</strong> using <em>MD5</em> and <em>SHA-1</em> authentication and <strong>authPriv</strong> using, again, <em>MD5</em> and <em>SHA-1</em> authentication with <em>DES</em>, <em>AES-128</em>, <em>AES-192</em>, <em>AES-256</em> and <em>TripleDES</em> privacy encryption.</p>
+<p>Library is fully self contained. This means that it does not depend on any classes or libraries, other then available as part of the .Net framework version 2. Encryption functionality is implemented using System.Security.Cryptography name space. I have decided to use .NET provided crypto to avoid having to worry about international distribution of the library. In other words, if your .NET distribution supports System.Security.Cryptography namespace with MD5, SHA-1, DES, Rijndael and TripleDES classes, you are good to go.</p>
+<p>Project is in Beta release. Basic testing of library functionality has been completed and all components are fully operational. Major work now is to do the deep testing. I am hoping to get assistance from the users of the library so if you find any issues, send me a note to dev [at] snmpsharpnet [dot] com.</p>
+<p>To re-assure anybody concerned that web site is hosted on a dot com domain, this project is open source and will remain open source and free to all. I have setup a dot com domain because it was $5 cheaper and, let’s face it, I’m not made of money 🙂</p>
+<p>Big thanks to Java developers of SNMP libraries <a href="http://sourceforge.net/projects/joesnmp/">joeSNMP</a>, <a href="http://www.snmp4j.org/">snmp4j</a>, and <a href="http://snmp.westhawk.co.uk/">Westhawk SNMP</a> where I got a lot of ideas and solutions without which this project would not be possible.</p>
+<p style="color: red;">I have to apologize for the recent web site outage. It turns out that providing free software is not good enough for some people who decided to use my domain to distribute SPAM. To address this, I had to take down the site and rebuilt the entire site from the ground up. I hope all content is back up and running. Please feel free to reach out to me through SourceForge if you find anything missing or wish me to add specific content.</p>
+<p>Quick links to pages on this site:</p>
+<ul class="changelog1">
+<li class="first-child"><a href="http://www.snmpsharpnet.com/?page_id=15">Feature Support</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=17">License</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=13">Change Log</a></li>
+<li>Protocol information</li>
+<ul class="changelog2">
+<li class="first-child"><a href="http://www.snmpsharpnet.com/?page_id=30">Simple Network Management Protocol Introduction</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=19">Introduction to SNMP version 3</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=39">SNMP v1 and v2c packet</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=43">SNMP v1 and v2c Protocol Data Unit</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=111">SNMP Version 1 or 2c Get request</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=54">Variable Bindings</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=28">SNMP Version 3 Concepts</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=95">SNMP version 3 requests</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=92">SNMP version 3 notifications (traps and informs)</a></li>
+<li class="last-child"><a href="http://www.snmpsharpnet.com/?page_id=26">SNMP Standards RFC Documents</a></li>
+</ul>
+<li><a href="http://www.snmpsharpnet.com/?page_id=41">SNMP Variable Types</a></li>
+<ul class="changelog2">
+<li class="first-child"><a href="http://www.snmpsharpnet.com/?page_id=63">Working with Object Identifiers</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=66">Working with Octet Strings</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=68">Working with numeric data types (Counter32, Counter64, Gauge32 and TimeTicks)</a></li>
+<li class="last-child"><a href="http://www.snmpsharpnet.com/?page_id=60">Working with IP addresses (IpAddress class)</a></li>
+</ul>
+<li>Packet class information</li>
+<ul class="changelog2">
+<li class="first-child"><a href="http://www.snmpsharpnet.com/?page_id=81">SNMP Version 1 Low Level Packet Class</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=84">SNMP Version 2 Low Level Packet Class</a></li>
+<li class="last-child"><a href="http://www.snmpsharpnet.com/?page_id=87">SNMP Version 3 Low Level Packet Class</a></li>
+</ul>
+<li>Examples</li>
+<ul class="changelog2">
+<li class="first-child"><a href="http://www.snmpsharpnet.com/?page_id=75">How to get a table from a SNMP Agent using SNMPv2c and GetBulk</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=114">How to make an SNMP Set request</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=97">Send SNMP version 1, 2c and 3 traps</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=117">Receive SNMP version 1 and 2c Trap notifications</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=78">Async Receive SNMP version 1 traps and 2c traps and informs</a></li>
+<li class="last-child"><a href="http://www.snmpsharpnet.com/?page_id=102">Simple SNMP with SimpleSnmp class</a></li>
+</ul>
+<li><a href="http://www.snmpsharpnet.com/?page_id=105">SimpleSnmp with VB.Net</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=99">Sending SNMP Version 3 traps</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=206">Example SNMPv3 Get Operation</a></li>
+<li><a href="http://www.snmpsharpnet.com/?page_id=197">Example SNMPv3 Set Operation</a></li>
+<li><a href="http://www.snmpsharpnet.com3601/?page_id=108">Walk operation with SNMP version 1 and 2c</a></li>
+<li class="last-child"><a href="http://www.snmpsharpnet.com/?page_id=216">How to process MAC/Ethernet Addresses using EthernetAddress class</a></li>
+</ul>
+					</div><!-- .entry-content -->
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+		<div class="first front-widgets">
+				<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li class="first-child">
+				<a href="http://www.snmpsharpnet.com/?p=120">Progress Update – 2010-10-10</a>
+							<span class="post-date">October 10, 2010</span>
+						</li>
+					<li>
+				<a href="http://www.snmpsharpnet.com/?p=122">Release of bug fix version 0.7.5</a>
+							<span class="post-date">January 20, 2010</span>
+						</li>
+					<li>
+				<a href="http://www.snmpsharpnet.com/?p=126">Major bug discovered in version 0.7.4 and earlier</a>
+							<span class="post-date">January 18, 2010</span>
+						</li>
+					<li>
+				<a href="http://www.snmpsharpnet.com/?p=128">Changes in preparation for version 0.7.5 release</a>
+							<span class="post-date">December 28, 2009</span>
+						</li>
+					<li class="last-child">
+				<a href="http://www.snmpsharpnet.com/?p=130">SnmpSharpNet in IronPython</a>
+							<span class="post-date">May 4, 2009</span>
+						</li>
+				</ul>
+		</aside>			</div><!-- .first -->
+	
+	</div><!-- #secondary -->	</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type="text/javascript" src="./SnmpSharpNet _ SNMP Library for C#_files/hoverIntent.min.js.download"></script>
+<script type="text/javascript" src="./SnmpSharpNet _ SNMP Library for C#_files/wp-syntax.js.download"></script>
+<script type="text/javascript" src="./SnmpSharpNet _ SNMP Library for C#_files/navigation.js.download"></script>
+<script type="text/javascript" src="./SnmpSharpNet _ SNMP Library for C#_files/wp-embed.min.js.download"></script>
+
+</body></html>

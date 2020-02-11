@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!-- saved from url=(0157)https://s0.2mdn.net/ads/richmedia/studio/pv2/61092011/20190424041017923/300x250_APRIL2019.html?e=69&leftOffset=0&topOffset=0&c=5cUKkcFCGM&t=1&renderingType=2 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	  
+	  <title>Creative</title>
+	  <script src="./Enabler_01_234.js.download"> </script>
+	  <style>
+	  html, body {
+	  	margin: 0;
+	  	padding: 0;
+	  }
+	  .clickarea {
+		  background-color: rgba(255,255,255,0);
+		  cursor: pointer;
+		  height: 100%;
+		  left: 0px;
+		  position: absolute;
+		  top: 0px;
+		  width: 100%;
+		  z-index: 99;
+		  display: none;
+		}
+		#c1 {
+			display: block;
+		}
+	</style>
+    <script>
+
+	Enabler.setProfileId(10442510);
+
+    var devDynamicContent = {};
+    devDynamicContent.HTML5_RTG_Segmentation_Bannerflow_2019_Creative_Library= [{}];
+    devDynamicContent.HTML5_RTG_Segmentation_Bannerflow_2019_Creative_Library[0]._id = 0;
+    devDynamicContent.HTML5_RTG_Segmentation_Bannerflow_2019_Creative_Library[0].UniqueID = 799;
+    devDynamicContent.HTML5_RTG_Segmentation_Bannerflow_2019_Creative_Library[0].Start = "2015-01-06 00:00";
+    devDynamicContent.HTML5_RTG_Segmentation_Bannerflow_2019_Creative_Library[0].End = "2028-03-01 00:00";
+    devDynamicContent.HTML5_RTG_Segmentation_Bannerflow_2019_Creative_Library[0].BANNERFLOW_BANNER = "5c2c951f07abeb4c1ce3a3d1";
+    devDynamicContent.HTML5_RTG_Segmentation_Bannerflow_2019_Creative_Library[0].landingpage_exit00 = {};
+    devDynamicContent.HTML5_RTG_Segmentation_Bannerflow_2019_Creative_Library[0].landingpage_exit00.Url = "http://www.three.co.uk ";
+    Enabler.setDevDynamicContent(devDynamicContent);
+</script>
+	<script>
+		var clickareas = [];
+		var exitLabel = 'Click on banner';
+		var exitUrl = null;
+		var customExitUrl = null;
+		var customExitLabel = null;
+		var placementId = null;
+
+		if (Enabler.isInitialized()) {
+		  enablerInitHandler();
+		} else {
+		  Enabler.addEventListener(studio.events.StudioEvent.INIT, enablerInitHandler);
+		}
+
+		function onClick(e) {
+
+		    var targetUrl = customExitUrl || exitUrl || '';
+		    if (placementId) {
+			    window.postMessage(JSON.stringify({
+			        event: 'click',
+			        url: targetUrl,
+			        data: { targetUrl: targetUrl, x: e.clientX, y: e.clientY},
+			        params: {placement: placementId}
+			    }), '*');
+		    }
+
+			if (customExitUrl)
+				Enabler.exitOverride(customExitLabel, customExitUrl);
+			else if (exitUrl)
+	            Enabler.exitOverride(exitLabel, exitUrl);
+	        else
+	            Enabler.exit(exitLabel);
+		}
+
+		function enablerInitHandler() {
+			// Banner
+			var bannerId = '';
+
+		    // Get all sheets/feeds
+		    var feeds = [];
+		    for (key in devDynamicContent) { // Preserve order from dev
+		    	if (typeof dynamicContent[key] === 'object')
+		           feeds.push(dynamicContent[key]);
+		    }
+		    // Find exit URL
+		    for (var i=0;i<feeds.length;i++) {
+		        var feed = feeds[i];
+		        for (key in feed[0])
+		            if (key.toLowerCase().indexOf('exit') != -1 && feed[0][key].Url && feed[0][key].Url.length > 5)
+		                exitUrl = feed[0][key].Url;
+		    }
+		    
+		    // Add click listeners
+		    clickareas = document.querySelectorAll('.clickarea');
+		    for (var i=0;i<clickareas.length; i++) {
+				clickareas[i].addEventListener('click', onClick, false);
+		    }
+
+		    // Add hover listener
+		    document.body.addEventListener('mouseenter', reportHoverState, false);
+		    document.body.addEventListener('mouseleave', reportHoverState, false);
+		    document.body.addEventListener('mousemove', reportHoverState, false);
+		    
+		    // Retrieve DCO messages
+		    var arrValues = [];
+		    if (feeds.length > 0) {
+		        // Iterate feeds
+		        for (var i=0; i<feeds.length; i++) {
+		            var feed = feeds[i];
+		            var feedPrefix = '';
+		            if (feeds.length > 1)
+		                feedPrefix = 'Feed' + (i+1) + '.';
+		            // Iterate rows in feed
+		            for (var n=0; n<feed.length; n++) {
+		                var row = feed[n];
+		                var rowPrefix = '';
+		                if (feed.length > 1)
+		                    rowPrefix = 'Row' + (n+1) + '.';
+		                // Iterate keys in row
+		                for (key in row) {
+		                	if (!/active|default|_id|reporting_label|size|exit_url|bannerflow_banner/i.test(key)) {
+			                    var value = row[key];
+			                    // Support for non-string fields
+			                    if (typeof value == 'object') {
+			                        if (value['Url'])
+			                          value = value['Url'];
+			                        else {
+			                          for (fieldKey in value) {
+			                            if (typeof value[fieldKey] == 'string') {
+			                                value = value[fieldKey];
+			                            }
+			                          }
+			                        }
+			                    }
+			                    if (/<br\s*[\/]?>/i.test(value)) // <br> support
+			                        value = '<div>' + value.replace(/<br\s*[\/]?>/gi, '</div><div>') + '</div>';
+			                    var keyName = feedPrefix + rowPrefix + key.replace(' ', '_');
+			                    arrValues.push(keyName + '=' + encodeURIComponent(encodeURIComponent(value)));
+		                    } else if (key.toUpperCase() == 'BANNERFLOW_BANNER') {
+		                    	bannerId = row[key];
+		                    }
+
+		                }
+		            }
+		            
+		        }
+		        
+		    }
+		  	// Init banner (pass DCO messages)
+		  	if (bannerId) {
+		  		placementId = bannerId;
+			  	var scr = document.createElement('script');
+			  	scr.src = 'https://embed.bannerflow.com/' + bannerId + '?targeturl=%23&targetwindow=_self&container=banner&' + arrValues.join('&');
+			  	document.head.appendChild(scr);
+		  	}
+		}
+		function setPosition(el, x, y, w, h) {
+			el.style.left = x;el.style.top = y;el.style.width = w;el.style.height = h;el.style.display = 'block';
+		}
+
+		function reportHoverState(e) {
+	        var ifrBanner = document.querySelector("#banner iframe.bf_animated");
+	        if (ifrBanner) {
+	            ifrBanner.contentWindow.postMessage(e.type, '*');
+	        }
+	    }
+
+		window.addEventListener('message', function(e) {
+		    if (e.data) {
+		        var data = e.data;
+		        if (data.type == 'bfWidgetEvent' && data.value.event == 'click_passthrough') {
+		            data = JSON.parse(data.value.object);
+		            setPosition(clickareas[0], '0px', '0px', data.x + 'px', '100%');
+		            setPosition(clickareas[1], data.x + 'px', '0px', data.width + 'px', data.y + 'px');
+		            setPosition(clickareas[2], data.x + 'px', (data.y + data.height) + 'px', data.width + 'px', '100%');
+		            setPosition(clickareas[3], (data.x + data.width) + 'px', '0px', '100%', '100%');
+		        };
+		        if (data.type == 'bfWidgetEvent' && data.value.event == 'clickthrough_changed') {
+		            data = JSON.parse(data.value.object);
+		            if (!data.url) {
+		            	customExitUrl = null;
+		            	customExitLabel = null;
+		            } else {
+		            	customExitUrl = data.url;
+		            	customExitLabel = data.label ? data.label : 'Custom exit';
+		            }
+		        }
+		    };
+		});
+
+	  </script>
+	<script src="./5d8dde2f7eed5017bc09cd84"></script><script async="" src="./render.min.js.download"></script></head>
+	<body>
+		<div class="clickarea" id="c1" style="left: 0px; top: 0px; width: 144.48px; height: 100%; display: block;"></div>
+		<div class="clickarea" id="c2" style="left: 144.48px; top: 0px; width: 156px; height: 227.5px; display: block;"></div>
+		<div class="clickarea" id="c3" style="left: 144.48px; top: 253.5px; width: 156px; height: 100%; display: block;"></div>
+		<div class="clickarea" id="c4" style="left: 300.48px; top: 0px; width: 100%; height: 100%; display: block;"></div>
+		<div id="banner"><div id="bf1570375848658" style="width: 300px; height: 250px; overflow: hidden; position: relative;"><div><div style="width: 300px; height: 250px;"><iframe src="./5d8dde2f7eed5017bc09cd82.nynqCuKnuXOi.html" class="bf_image" style="max-width: none !important; max-height: none !important; width: 300px; height: 250px; position: absolute; left: 0px; top: 0px; background-color: transparent; border: none; opacity: 0; transition: opacity 0.1s ease 0s; z-index: 1; display: none;" frameborder="0" scrolling="no" id="bf_15703758486602608"></iframe><iframe src="./5d8dde2f7eed5017bc09cd82.html" class="bf_animated" style="max-width: none !important; max-height: none !important; width: 300px; height: 250px; position: absolute; left: 0px; top: 0px; background-color: transparent; border: none; opacity: 1;" frameborder="0" scrolling="no" id="bf_15703758486625258"></iframe></div></div></div></div>
+	
+
+</body></html>

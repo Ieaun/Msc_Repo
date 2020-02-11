@@ -1,0 +1,38 @@
+Program Title: Msc Computer Science
+Program ID: 341289
+Length of Program: 3 Years
+
+Year 1 Modules 
+Network Security (Core),
+Object oriented programming (Core),
+Distributedd Systems (Core),
+Component-Based Architecture (Core),
+Cyber Security (Optional),
+Software Engineering (Optional),
+Agile Software Development (Optional),
+Electronics and interfacing (Optional),
+Quantitive methods (Optional),
+
+
+Year 2 Modules 
+Networking and user interface (Core),
+Network Security (Core),
+Object oriented programming (Core),
+Distributedd Systems (Core),
+Component-Based Architecture (Optional),
+Cyber Security (Optional),
+Software Engineering (Optional),
+Agile Software Development (Optional),
+Electronics and interfacing (Optional),
+
+
+Year 3 Modules 
+Quantitive methods (Core),
+Networking and user interface (Core),
+Network Security (Core),
+Object oriented programming (Core),
+Distributedd Systems (Optional),
+Component-Based Architecture (Optional),
+Cyber Security (Optional),
+Software Engineering (Optional),
+Agile Software Development (Optional),

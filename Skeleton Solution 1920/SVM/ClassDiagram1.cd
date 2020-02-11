@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SVM.SimpleMachineLanguage.Add" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAAAI=</HashCode>
+      <FileName>SimpleMachineLanguage\Add.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVM.SimpleMachineLanguage.Decr" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SimpleMachineLanguage\Decr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVM.SimpleMachineLanguage.Incr" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SimpleMachineLanguage\Incr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVM.SimpleMachineLanguage.LoadInt" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAAAI=</HashCode>
+      <FileName>SimpleMachineLanguage\LoadInt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVM.SimpleMachineLanguage.LoadString" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAAAI=</HashCode>
+      <FileName>SimpleMachineLanguage\LoadString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVM.SimpleMachineLanguage.Remove" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAAAI=</HashCode>
+      <FileName>SimpleMachineLanguage\Remove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVM.SimpleMachineLanguage.Subtract" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAAAI=</HashCode>
+      <FileName>SimpleMachineLanguage\Subtract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVM.SimpleMachineLanguage.WriteString" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAAAI=</HashCode>
+      <FileName>SimpleMachineLanguage\WriteString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVM.VirtualMachine.BaseInstruction" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAEgAAAQAgCAAAIAIAAAAAAAAAAAAI=</HashCode>
+      <FileName>VirtualMachine\BaseInstruction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SVM.VirtualMachine.BaseInstructionWithOperand" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAAAAAAAAAEgAAAAAAAAAACAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>VirtualMachine\BaseInstructionWithOperand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SVM.VirtualMachine.JITCompiler" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VirtualMachine\JITCompiler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVM.VirtualMachine.SvmCompilationException" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAQAAAAAAAA=</HashCode>
+      <FileName>VirtualMachine\SvmCompilationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVM.VirtualMachine.SvmRuntimeException" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAQAAAAAAAA=</HashCode>
+      <FileName>VirtualMachine\SvmRuntimeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVM.SvmVirtualMachine" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAEAAAEAAAAAEgAACEAQAggAAAIAAAAAABGAAAkM=</HashCode>
+      <FileName>VirtualMachine\SvmVirtualMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SVM.VirtualMachine.IInstruction" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>VirtualMachine\IInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SVM.VirtualMachine.IInstructionWithOperand" Collapsed="true">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VirtualMachine\IInstructionWithOperand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SVM.VirtualMachine.Debug.IDebugFrame" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>VirtualMachine\Debug\IDebugFrame.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SVM.VirtualMachine.Debug.IDebugger" Collapsed="true">
+    <Position X="16.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VirtualMachine\Debug\IDebugger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

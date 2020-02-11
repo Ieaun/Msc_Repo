@@ -1,0 +1,39 @@
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\bin\Debug\Sample.sml
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\bin\Debug\Debugger.dll
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\bin\Debug\Debugger.pdb
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\bin\Debug\SVM.exe
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\bin\Debug\SVM.pdb
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csproj.CopyComplete
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.dll
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.pdb
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debuggers.Debug_UI.resources
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csproj.GenerateResource.cache
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debuggers.Properties.Resources.resources
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\bin\Debug\Sample.sml
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\bin\Debug\Debugger.dll
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\bin\Debug\Debugger.pdb
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\bin\Debug\SVM.exe
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\bin\Debug\SVM.pdb
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csprojAssemblyReference.cache
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debuggers.Debug_UI.resources
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debuggers.Properties.Resources.resources
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csproj.GenerateResource.cache
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csproj.CoreCompileInputs.cache
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csproj.CopyComplete
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.dll
+C:\Temp\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.pdb
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\bin\Debug\Sample.sml
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\bin\Debug\Debugger.dll
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\bin\Debug\Debugger.pdb
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\bin\Debug\SVM.exe
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\bin\Debug\SVM.pdb
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debuggers.Debug_UI.resources
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debuggers.Properties.Resources.resources
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csproj.GenerateResource.cache
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.csproj.CopyComplete
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.dll
+C:\Users\user\Desktop\SVN 2019\ieaun\MSC\Component based\Skeleton Solution 1920\SVM\Debugger\obj\Debug\Debugger.pdb

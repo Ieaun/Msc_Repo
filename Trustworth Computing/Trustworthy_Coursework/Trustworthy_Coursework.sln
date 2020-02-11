@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustworthy_Coursework", "Trustworthy_Coursework\Trustworthy_Coursework.csproj", "{334734B4-BCF3-4CC1-BD2D-9B6D1FDD783D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{471CBEEC-3996-45A2-9B9A-C10F46D18081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UntrustedCode", "UntrustedCode\UntrustedCode.csproj", "{2B55CBED-DDE3-4E18-93F9-41CC9560F7AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{334734B4-BCF3-4CC1-BD2D-9B6D1FDD783D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334734B4-BCF3-4CC1-BD2D-9B6D1FDD783D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334734B4-BCF3-4CC1-BD2D-9B6D1FDD783D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334734B4-BCF3-4CC1-BD2D-9B6D1FDD783D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B55CBED-DDE3-4E18-93F9-41CC9560F7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B55CBED-DDE3-4E18-93F9-41CC9560F7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B55CBED-DDE3-4E18-93F9-41CC9560F7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B55CBED-DDE3-4E18-93F9-41CC9560F7AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F7CA917-A791-470A-93BF-78A0F616AC64}
+	EndGlobalSection
+EndGlobal

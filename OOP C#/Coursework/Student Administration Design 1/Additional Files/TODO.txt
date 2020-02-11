@@ -1,0 +1,5 @@
+ //TODO: Add a check for the core modules as you cant have more than 5 core modules with optionals (PercentagBar_Programs())
+//TODO: add way to select if a staff member or student on registartion 
+//TODO: Finish grading/classifictation 
+program overal grade
+
